@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+<!-- css link here  -->
+   <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" id="city name" name="city name" placeholder="type city name">
+            <button>Search</button>
+            <div class="cricle1"></div>
+            <div class="cricle2"></div>
+        </div>
+        <div class="error">City is not exist</div>
+        <div class="weather">
+            <img src="weatherImg/rain.png" class="weatherImg" alt="rain">
+            <h2 class="temp">22°C </h2>
+            <h3 class="city">Dehradun</h3>
+            <div class="details">
+                <div class="col">
+                    <img src="weatherImg/humidity.png" alt="humidity">
+<div class="img-content">
+    <p class="humidity">50%</p>
+    <p>humidity</p>
+</div>
+                </div>
+
+                <div class="col">
+                    <img src="weatherImg/wind.png" alt="wind">
+<div class="img-content">
+    <p class="wind">15km/h</p>
+    <p>wind speed</p>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="weather.js">
+
+    </script>
+</body>
+</html>
